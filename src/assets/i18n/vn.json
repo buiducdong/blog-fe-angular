@@ -1,0 +1,31 @@
+{
+    "common": {
+        "message": {
+            "success": "Thành công",
+            "error": "Thất bại",
+            "warning": "Cảnh báo"
+        },
+        "header": {
+            "about": "Về chúng tôi",
+            "service": "Dịch vụ",
+            "knowledge": "Kiến thức",
+            "experience": "Kinh nghiệm",
+            "contact": "Liên hệ",
+            "messenger": "Tin nhắn",
+            "blogs": "blogs"
+        }
+    },
+    "screen": {
+        "homepage": {
+            "mission": "SỨ MỆNH",
+            "mission-desc": "ĐÓNG GÓP ĐỔI MỚI CHO THẾ GIỚI!"
+        },
+        "blog": {
+            "bun": {
+                "whatIsBun": "Bun là gì?",
+                "definition": "Bun là bộ công cụ tất cả trong một dành cho ứng dụng JavaScript và TypeScript. <br>Nó được vận chuyển dưới dạng một tệp thực thi duy nhất được gọi là bun​. \nCốt lõi của nó là thời gian chạy Bun, thời gian chạy JavaScript nhanh được thiết kế để thay thế cho Node.js. Nó được viết bằng Zig và được hỗ trợ bởi JavaScriptCore, giúp giảm đáng kể thời gian khởi động và mức sử dụng bộ nhớ.",
+                "desc": "​​Công cụ dòng lệnh bun cũng triển khai trình chạy thử nghiệm, trình chạy tập lệnh và trình quản lý gói tương thích với Node.js, tất cả đều nhanh hơn đáng kể so với các công cụ hiện có và có thể sử dụng được trong các dự án Node.js hiện có mà không cần thay đổi nhiều."
+            }
+        }
+    }
+}

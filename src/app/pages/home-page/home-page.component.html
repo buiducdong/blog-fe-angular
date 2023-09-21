@@ -1,0 +1,24 @@
+<div class="home-page">
+    <app-header></app-header>
+    <section id="1" class="section-banner pd-header">
+        <div class="container" style="background-image:url(https://bap-software.net/wp-content/uploads/2023/03/AnyConv.com__MicrosoftTeams-image-19.webp)">
+            <h1>{{"screen.homepage.mission" | translate}}</h1>
+            <p>{{"screen.homepage.mission-desc" | translate}}</p>
+        </div>
+    </section>
+    <section id="2" class="section-service">
+        <ul>
+            <li>Service</li>
+            <li *ngFor="let user of users; index as i">
+                {{user.userName}}
+            </li>
+        </ul>
+    </section>
+    <section id="3" class="section-knowledge">
+        Knowledge
+    </section>
+    <section id="4" class="section-experience">
+        Experience
+    </section>
+    <h4 class="h4">h4444</h4>
+</div>

@@ -1,0 +1,24 @@
+@import '../../../../../../../styles.scss';
+
+.bun-container {
+    .sidebar {
+        width: $sidebar-content-width;
+        height: calc(100vh - $header-height);
+        background-color: rgb(163, 161, 161);
+        position: fixed;
+        top: $header-height;
+        padding-top: 40px;
+    }
+
+    .blog-content {
+        margin-left: $sidebar-content-width;
+        height: 100rem;
+        padding: 0 24px;
+        header {
+            margin-bottom: 24px;
+        }
+
+        .container {
+        }
+    }
+}

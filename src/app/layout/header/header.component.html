@@ -1,0 +1,53 @@
+
+<header [ngClass]="['header-default', scrolledTo100 ? 'header-fixed' : '']">
+    <div class="header-bar">
+        <div class="header-logo" routerLink="/">
+            BRON
+        </div>
+        <div class="header-function">
+            <div class="header-nav">
+                <ul class="header-nav__items">
+                    <li class="nav__item" *ngFor="let navItem of commonNavData; index as i">
+                        <a [routerLink]="navItem.routerLink">{{ navItem.label | translate}}</a>
+                        <!-- <div class="nav-sub-items-wrapper">
+                            <div class="nav-sub-item-heading">
+                                <a href="" class="nav-sub-item-title">{{ navItem.label | translate}}</a>
+                            </div>
+                            <ul class="nav-sub-items">
+                                <li class="sub__item">
+                                    <a href="">1</a>
+                                </li>
+                                <li class="sub__item">
+                                    <a href="">2</a>
+                                </li>
+                                <li class="sub__item">
+                                    <a href="">3</a>
+                                </li>
+                                <li class="sub__item">
+                                    <a href="">4</a>
+                                </li>
+                                <li class="sub__item">
+                                    <a href="">5</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li class="nav__item">
+                        <a class="btn btn-secondary" href="#1">{{"common.header.contact" | translate}}</a>
+                    </li>
+                    <div class="nav__item header-language">
+                        <li class="lang-vn" (click)="langSelected('vn')">
+                            <img src="assets/images/vn.png" alt="vn">
+                        </li>
+                        <li class="lang-en" (click)="langSelected('en')">
+                            <img src="assets/images/en.png" alt="en">
+                        </li>
+                    </div>
+                </ul>
+                <div class="header-toggle">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

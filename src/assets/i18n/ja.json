@@ -1,0 +1,24 @@
+{
+    "common": {
+        "message": {
+            "success": "Thành công",
+            "error": "Thất bại",
+            "warning": "Cảnh báo"
+        },
+        "header": {
+            "about": "Về chúng tôi",
+            "service": "Dịch vụ",
+            "knowledge": "Kiến thức",
+            "experience": "Kinh nghiệm",
+            "contact": "Liên hệ",
+            "messenger": "Tin nhắn",
+            "blogs": "blogs"
+        }
+    },
+    "screen": {
+        "homepage": {
+            "mission": "MISSION",
+            "mission-desc": "CONTRIBUTE INNOVATION TO THE WORLD!"
+        }
+    }
+}

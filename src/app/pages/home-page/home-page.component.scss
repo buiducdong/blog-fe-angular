@@ -1,0 +1,40 @@
+@import '../../../styles/variable.scss';
+
+.home-page {
+    .section-banner {
+        background-color: $bg-primary;
+        // padding-top: calc($header-height + 100px);
+        min-height: 500px;
+        .container {
+            margin: 0 auto;
+            text-align: center;
+            height: 100%;
+            padding: 50px 0;
+            h1 {
+                font-size: 3rem;
+                font-weight: 600;
+                color: $white;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: $white;
+            }
+        }
+    }
+
+    .section-service {
+        background-color: $red;
+        min-height: 400px;
+    }
+
+    .section-knowledge {
+        background-color: $pink;
+        min-height: 400px;
+    }
+
+    .section-experience {
+        background-color: $purple;
+        min-height: 400px;
+    }
+}
