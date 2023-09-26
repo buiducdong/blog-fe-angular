@@ -11,12 +11,13 @@ export interface INavbarModel {
 export const CommonNavData: INavbarModel[] = [
   {
     label: 'common.header.about',
-    level: 1
+    level: 1,
+    routerLink: ['/u/about']
   },
   {
     label: 'common.header.blogs',
     level: 1,
-    routerLink: ['/blogs']
+    routerLink: ['/u/blogs']
   },
   {
     label: 'common.header.knowledge',

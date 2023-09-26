@@ -73,6 +73,10 @@
                             }
                         }
 
+                        &.active {
+                            color: $primary-2;
+                        }
+
                         &.header-language {
                             display: flex;
                             gap: 12px;

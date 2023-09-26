@@ -5,11 +5,13 @@ import { UserRoutingModule } from './user-routing.module';
 import { BlogComponent } from './components/blog/blog.component';
 import { CommonAppModule } from 'src/app/common/common.module';
 import { LayoutModule } from 'src/app/layout/layout.module';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
   declarations: [
-    BlogComponent
+    BlogComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

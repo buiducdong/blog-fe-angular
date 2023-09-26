@@ -7,8 +7,14 @@
         <div class="header-function">
             <div class="header-nav">
                 <ul class="header-nav__items">
-                    <li class="nav__item" *ngFor="let navItem of commonNavData; index as i">
-                        <a [routerLink]="navItem.routerLink">{{ navItem.label | translate}}</a>
+                    <li class="nav__item" *ngFor="let navItem of commonNavData; index as i"
+                        [routerLink]="navItem.routerLink"
+                        routerLinkActive="active">
+                        <!-- <a 
+                            [routerLink]="navItem.routerLink"
+                            routerLinkActive="{{navItem.label}}">
+                        </a> -->
+                        {{ navItem.label | translate}}
                         <!-- <div class="nav-sub-items-wrapper">
                             <div class="nav-sub-item-heading">
                                 <a href="" class="nav-sub-item-title">{{ navItem.label | translate}}</a>
