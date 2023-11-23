@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SocketService } from 'src/app/common/services/socket.service';
 
 @Component({
   selector: 'app-bun',
@@ -7,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BunComponent implements OnInit {
 
+  public constructor( private socketService: SocketService) {}
+
   public ngOnInit(): void {
-    2+2;
   }
 
 }

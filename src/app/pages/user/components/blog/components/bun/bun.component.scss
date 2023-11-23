@@ -7,13 +7,16 @@
         background-color: rgb(163, 161, 161);
         position: fixed;
         top: $header-height;
-        padding-top: 40px;
+        padding-top: 100px;
+        padding-left: 40px;
+        box-sizing: border-box;
     }
 
     .blog-content {
         margin-left: $sidebar-content-width;
         height: 100rem;
         padding: 0 24px;
+        white-space: pre-wrap;
         header {
             margin-bottom: 24px;
         }

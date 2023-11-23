@@ -6,12 +6,14 @@ import { BlogComponent } from './components/blog/blog.component';
 import { CommonAppModule } from 'src/app/common/common.module';
 import { LayoutModule } from 'src/app/layout/layout.module';
 import { AboutComponent } from './components/about/about.component';
+import { ConversationComponent } from './components/conversation/conversation.component';
 
 
 @NgModule({
   declarations: [
     BlogComponent,
-    AboutComponent
+    AboutComponent,
+    ConversationComponent
   ],
   imports: [
     CommonModule,

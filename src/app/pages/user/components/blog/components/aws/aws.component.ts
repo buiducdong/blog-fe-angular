@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SocketService } from 'src/app/common/services/socket.service';
 
 @Component({
   selector: 'app-aws',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AwsComponent implements OnInit {
 
+  public constructor( private socketService: SocketService) {}
 
   public ngOnInit(): void {
-    2+2;
+    1+1;
   }
 
 }

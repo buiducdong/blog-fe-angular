@@ -3,21 +3,21 @@
 
 // body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-html, body { 
-    height: 100%; 
-}
 body { 
-    * {
         margin: 0; 
-        font-family: 'Lora', serif;
-        font-size: 1.2rem;
-        line-height: 2rem;
-        letter-spacing: 1px;
-    }
+        padding: 0;
+        * {
+            margin: 0; 
+            padding: 0;
+            font-family: 'Lora', serif;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            letter-spacing: 1px; 
+        }
 }
 
 ul {
-    list-style: none;
+    // list-style: none;
     margin: 0;
     padding: 0;
 
@@ -56,6 +56,14 @@ ul {
     width: 50%;
 }
 
+.f-vw {
+    width: 100vw;
+}
+
+.f-vh {
+    height: 100vh;
+}
+
 h1,
 h2,
 h3,
@@ -91,7 +99,6 @@ ul,
 dl {
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 ::-webkit-scrollbar-track {
@@ -138,4 +145,32 @@ dl {
 .py-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.title_annotation {
+    background: linear-gradient(-45deg, #dfb79e, #dfb79e, #2b0413, #2b0413, #e25d52, #e25d52);
+    background-size: 300%;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 5vw;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 6s ease-in-out infinite;
+    -moz-animation: animated_text 6s ease-in-out infinite;
+    -webkit-animation: animated_text 6s ease-in-out infinite;
+    line-height: 100%;
+}
+
+@keyframes animated_text {
+    0% {
+        background-position: 0px 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0px 50%;
+    }
 }

@@ -1,0 +1,7 @@
+@import '../../../../../styles.scss';
+
+.conversation-container {
+    background-color: red;
+    height: calc(100vh - ( $header-height + 40px ));
+    padding-top: calc( 40px + $header-height);
+}

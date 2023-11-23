@@ -25,10 +25,12 @@ export const CommonNavData: INavbarModel[] = [
   },
   {
     label: 'common.header.experience',
-    level: 1
+    level: 1,
+    routerLink: ['/u/experience']
   },
   {
     label: 'common.header.messenger',
-    level: 1
+    level: 1,
+    routerLink: ['/u/conversations']
   }
 ];
